@@ -162,6 +162,8 @@ h6 {
   display: block;
   width: 120px;
   border: 8px solid color-mix(in srgb, var(--default-color), transparent 85%);
+  
+  
 }
 
 .header .logo {
@@ -360,6 +362,8 @@ h6 {
   display: block;
   background-color: rgba(33, 37, 41, 0.03);
 }
+
+
 
 /*--------------------------------------------------------------
 # Global Footer
@@ -889,6 +893,7 @@ section,
 .portfolio .portfolio-content:hover img {
   transform: scale(1.1);
 }
+
 
 /*--------------------------------------------------------------
 # Services Section

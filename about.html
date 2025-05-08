@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Portfolio Details - iPortfolio Bootstrap Template</title>
+  <title>Index - iPortfolio Bootstrap Template</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -36,13 +36,13 @@
   ======================================================== -->
 </head>
 
-<body class="portfolio-details-page">
+<body class="index-page">
 
   <header id="header" class="header dark-background d-flex flex-column">
     <i class="header-toggle d-xl-none bi bi-list"></i>
 
     <div class="profile-img">
-      <img src="assets/img/071101.jpg" alt="" class="img-fluid1 rounded-circle">
+      <img src="assets/img/0711011.jpg" alt="" class="img-fluid1 rounded-circle">
     </div>
 
     <a href="index.html" class="logo d-flex align-items-center justify-content-center">
@@ -52,22 +52,23 @@
     </a>
 
     <div class="social-links text-center">
-      <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
-      <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-      <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-      <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
-      <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      <a href="https://twitter.com/" target="_blank" class="icon"><i class="bi bi-twitter-x"></i></a>
+      <a href="https://facebook.com/" target="_blank" class="icon"><i class="bi bi-facebook"></i></a>
+      <a href="https://instagram.com/" target="_blank" class="icon"><i class="bi bi-instagram"></i></a>
+      <a href="https://wa.me/6281234567890" target="_blank" class="icon"><i class="bi bi-whatsapp"></i></a>
+      <a href="https://youtube.com/" target="_blank" class="icon"><i class="bi bi-youtube"></i></a>
     </div>
+    
+    
 
     <nav id="navmenu" class="navmenu">
       <ul>
-        <li><a href="index.html"><i class="bi bi-house navicon"></i>Home</a></li>
-        <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
-        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
-        <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
-
+        <li><a href="index.html" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
+        <li><a href="about.html"><i class="bi bi-person navicon"></i> About</a></li>
+        <li><a href="resume.html"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+        <li><a href="portfolio.html"><i class="bi bi-images navicon"></i> Portfolio</a></li>
         
-        <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+        <li><a href="contact.html"><i class="bi bi-envelope navicon"></i> Contact</a></li>
       </ul>
     </nav>
 
@@ -75,94 +76,63 @@
 
   <main class="main">
 
-    <!-- Page Title -->
-    <div class="page-title dark-background">
-      <div class="container d-lg-flex justify-content-between align-items-center">
-        <h1 class="mb-2 mb-lg-0">Portfolio Details</h1>
-        <nav class="breadcrumbs">
-          <ol>
-            <li><a href="index.html">Home</a></li>
-            <li class="current">Portfolio Details</li>
-          </ol>
-        </nav>
-      </div>
-    </div><!-- End Page Title -->
+    
+    <!-- About Section -->
+    <section id="about" class="about section">
 
-    <!-- Portfolio Details Section -->
-    <section id="portfolio-details" class="portfolio-details section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About</h2>
+        <p>Portal Donasi Mahasiswa adalah platform penggalangan dana yang dikelola oleh mahasiswa untuk mahasiswa. Kami menjembatani semangat solidaritas dalam mendukung kegiatan sosial, kemanusiaan, dan pendidikan yang digagas oleh mahasiswa dari berbagai kampus di Indonesia.</p>
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="row gy-4">
-
-          <div class="col-lg-8">
-            <div class="portfolio-details-slider swiper init-swiper">
-
-              <script type="application/json" class="swiper-config">
-                {
-                  "loop": true,
-                  "speed": 600,
-                  "autoplay": {
-                    "delay": 5000
-                  },
-                  "slidesPerView": "auto",
-                  "pagination": {
-                    "el": ".swiper-pagination",
-                    "type": "bullets",
-                    "clickable": true
-                  }
-                  
-                  
-                }
-              </script>
-
-              <div class="swiper-wrapper align-items-center">
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/071104.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/071105.jpg"  style="width: 800px; height: 380px; object-fit: cover;" alt="foto">
-
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/071107.jpg"  style="width: 800px; height: 380px; object-fit: cover;"alt="">
-                </div>
-
-                
-
-              </div>
-              <div class="swiper-pagination"></div>
-            </div>
-          </div>
-
+        <div class="row gy-4 justify-content-center">
           <div class="col-lg-4">
-            <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
-              <h3>Project information</h3>
-              <ul>
-                <li><strong>Kategori</strong>: Web design</li>
-                <li><strong>Tentang</strong>: Donasi</li>
-                <li><strong>Portal Donasi Mahasiswa</strong>: Universitas Bhineka PGRI</li>
-                
-              </ul>
+            <img src="assets/img/071103.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 content">
+            <h2>Tujuan  Portal Donasi Mahasiswa.</h2>
+            <p class="fst-italic py-3">
+              Pada Website ini memiliki beberapa tujuan yang harus kalian pahami sebelum memutuskan untuk berdonasi
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Menjadi Sarana Penggalangan Dana Sosial Mahasiswa</strong> <span></span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Meningkatkan Kepedulian dan Solidaritas Sosial</strong> <span></span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Memperluas Jangkauan Aksi Sosial Mahasiswa</strong> <span></span></li>
+                  
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Menjadi Sarana Pembelajaran dan Tanggung Jawab Sosial</strong> <span></span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong> Menjamin Transparansi dan Kepercayaan</strong> <span></span></li>
+                </ul>
+              </div>
             </div>
-            <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
-              <h2>Contoh Kegiatan Donasi</h2>
-              <p>
-                Seperti yang kalian telah lihat pada gambar disitu adalah gambar tentang donasi ada beberapa gambar tentang donasi yang dilakukan beberapa orang yang memberikan berbagai barang seperti pakaian makanan dan sembako yang akan di berikan kepada yang membutuhkan
-              </p>
-            </div>
+            <p class="py-3">
+              Setelah melihat tujuan dari website kami mungkin anda akan lebih tertarik untuk berdonasi pada website kami
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+        </div>
+
+      </div>
+
+    </section>
           </div>
 
         </div>
 
       </div>
 
-    </section><!-- /Portfolio Details Section -->
-
-  </main>
+   
 
   <footer id="footer" class="footer position-relative light-background">
 
